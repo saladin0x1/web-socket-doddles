@@ -1,0 +1,1036 @@
+{
+  "Sheet1": [
+    {
+      "QUESTION": "ماهي مساحة المربع؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الضلع*الضلع",
+      "RESPONSE2": "الطول*العرض",
+      "RESPONSE3": "القاعدة*الطول",
+      "RESPONSE4": "القاعدة*الأرتفاع"
+    },
+    {
+      "QUESTION": "ماهي عاصمة تونس؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "تونس",
+      "RESPONSE2": "نواكشط",
+      "RESPONSE3": "تونس",
+      "RESPONSE4": "الجزائر"
+    },
+    {
+      "QUESTION": "من هو أول الخلفاء الراشدين؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "أبو بكر الصديق",
+      "RESPONSE2": "عثمان بن عفان ",
+      "RESPONSE3": "علي بن أبي طالب",
+      "RESPONSE4": "أبو بكر الصديق"
+    },
+    {
+      "QUESTION": "ما هو عدد أحزاب القرأن الكريم؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": " ستون حزبا",
+      "RESPONSE2": "سبعون حزبا",
+      "RESPONSE3": "خمسون حزبا",
+      "RESPONSE4": "أربعون حزبا"
+    },
+    {
+      "QUESTION": "في أية قارة يقع المغرب؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "إفريقيا",
+      "RESPONSE2": "أسيا",
+      "RESPONSE3": "أروبا",
+      "RESPONSE4": "إفريقيا"
+    },
+    {
+      "QUESTION": "ما هي عاصمة فرنسا؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "باريس",
+      "RESPONSE2": "باريس",
+      "RESPONSE3": "مدريد",
+      "RESPONSE4": "برلين"
+    },
+    {
+      "QUESTION": "متى حصل المغرب على استقلاله؟ ",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "1956",
+      "RESPONSE2": "1956",
+      "RESPONSE3": "2000",
+      "RESPONSE4": "1850"
+    },
+    {
+      "QUESTION": "أي طائر من الطيور التالية لا يطير؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "البطريق",
+      "RESPONSE2": "النسر",
+      "RESPONSE3": "البطريق",
+      "RESPONSE4": "الغراب"
+    },
+    {
+      "QUESTION": "من هو مكتشف أمريكا؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "كريسطوفر كولومبس",
+      "RESPONSE2": "ماجلان",
+      "RESPONSE3": "كريسطوفر كولومبس",
+      "RESPONSE4": "أمريكو فيسيوتشي"
+    },
+    {
+      "QUESTION": "ما هي أعلى قمة في المغرب؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "جبل توبقال",
+      "RESPONSE2": "جبل أوكايمدن",
+      "RESPONSE3": "جبل تيدغين",
+      "RESPONSE4": "جبل بوعنان"
+    },
+    {
+      "QUESTION": "ماذا يسمى صوت الماء؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "خرير",
+      "RESPONSE2": "زقزقة",
+      "RESPONSE3": "خرير",
+      "RESPONSE4": "زئير"
+    },
+    {
+      "QUESTION": "ماذا يسمى إبن الأسد؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "شبل",
+      "RESPONSE2": "شبل",
+      "RESPONSE3": "شرغوف",
+      "RESPONSE4": "كتكوت"
+    },
+    {
+      "QUESTION": "أكمل المثل : العقل السليم في الجسم؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "السليم",
+      "RESPONSE2": "الحكيم",
+      "RESPONSE3": "السليم",
+      "RESPONSE4": "الذميم"
+    },
+    {
+      "QUESTION": "من هو مخترع المصباح؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "طوماس إديسون",
+      "RESPONSE2": "طوماس إديسون",
+      "RESPONSE3": "جورج واشنطن",
+      "RESPONSE4": "نيكولا تيسلا"
+    },
+    {
+      "QUESTION": "كم عدد لاعبي فريق كرة القدم؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "11",
+      "RESPONSE2": "10",
+      "RESPONSE3": "9",
+      "RESPONSE4": "15"
+    },
+    {
+      "QUESTION": "ما هو أطول أصبع في يد الإنسان؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الوسطى",
+      "RESPONSE2": "الوسطى",
+      "RESPONSE3": "الخنصر",
+      "RESPONSE4": "البنصر"
+    },
+    {
+      "QUESTION": "كم عدد أشهر السنة؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "12",
+      "RESPONSE2": "10",
+      "RESPONSE3": "11",
+      "RESPONSE4": "14"
+    },
+    {
+      "QUESTION": "كم عدد فصول السنة؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "4",
+      "RESPONSE2": "4",
+      "RESPONSE3": "6",
+      "RESPONSE4": "9"
+    },
+    {
+      "QUESTION": "كم عدد أركان الإسلام؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "5",
+      "RESPONSE2": "7",
+      "RESPONSE3": "4",
+      "RESPONSE4": "3"
+    },
+    {
+      "QUESTION": "من هو كليم الله؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "عيسى",
+      "RESPONSE2": "عيسى",
+      "RESPONSE3": "محمد",
+      "RESPONSE4": "موسى"
+    },
+    {
+      "QUESTION": "كم كان عمر الرسول (ص) عند نزول الوحي؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "أربعون سنة",
+      "RESPONSE2": "أربعون سنة",
+      "RESPONSE3": "عشرون سنة",
+      "RESPONSE4": "خمسون سنة"
+    },
+    {
+      "QUESTION": "ما هو أهم عضو في عملية التنفس؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الرئة",
+      "RESPONSE2": "الكبد",
+      "RESPONSE3": "الرئة",
+      "RESPONSE4": "القلب"
+    },
+    {
+      "QUESTION": "أين يوجد جامع القروين؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "فاس",
+      "RESPONSE2": "فاس",
+      "RESPONSE3": "الرباط",
+      "RESPONSE4": "الدار البيضاء"
+    },
+    {
+      "QUESTION": "من أول شخص حاول الطيران؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "عباس إبن فرناس",
+      "RESPONSE2": "علاء ولي الدين",
+      "RESPONSE3": "عباس إبن فرناس",
+      "RESPONSE4": "عقبة ابن نافع"
+    },
+    {
+      "QUESTION": "كم عدد العظام الموجودة في جسم الإنسان؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "206",
+      "RESPONSE2": "200",
+      "RESPONSE3": "102",
+      "RESPONSE4": "304"
+    },
+    {
+      "QUESTION": " ما هو الشيء الذي اسمه على لونه ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "البيض",
+      "RESPONSE2": "البيض",
+      "RESPONSE3": "الموز",
+      "RESPONSE4": "الكرز"
+    },
+    {
+      "QUESTION": "كم مرة تهز الذبابة جناحيها في الثانية ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "320",
+      "RESPONSE2": "200",
+      "RESPONSE3": "320",
+      "RESPONSE4": "400"
+    },
+    {
+      "QUESTION": "ماذا يطلق على من لا يقرأ ولا يكتب ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "أمي",
+      "RESPONSE2": "أبي",
+      "RESPONSE3": "جاهل",
+      "RESPONSE4": "أحمق"
+    },
+    {
+      "QUESTION": "ما اسم أشهر برج في باريس ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "برج إيفل",
+      "RESPONSE2": "برج إيفل",
+      "RESPONSE3": "برج القوة",
+      "RESPONSE4": "برج خليفة"
+    },
+    {
+      "QUESTION": "من هو صاحب قانون الجاذبية الأرضية ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "إسحاق نيوتن ",
+      "RESPONSE2": "إسحاق نيوتن",
+      "RESPONSE3": "البرت إنشتاين",
+      "RESPONSE4": " الفرابي"
+    },
+    {
+      "QUESTION": "ما هي أول دولة أستخدمة الطوابع ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "بريطانيا",
+      "RESPONSE2": "بريطانيا",
+      "RESPONSE3": "فرنسا",
+      "RESPONSE4": "اليونان"
+    },
+    {
+      "QUESTION": "في أي قارة تقع دولة فلسطين؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "أسيا",
+      "RESPONSE2": "إفريقيا",
+      "RESPONSE3": "أسيا",
+      "RESPONSE4": "أروبا"
+    },
+    {
+      "QUESTION": "ما اسم عاصمة العراق؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "بغداد",
+      "RESPONSE2": "بغداد",
+      "RESPONSE3": "القدس",
+      "RESPONSE4": "الرباط"
+    },
+    {
+      "QUESTION": "ما هو أطول نهر في العالم؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "أم الربيع",
+      "RESPONSE2": "أم الربيع",
+      "RESPONSE3": "النيل",
+      "RESPONSE4": "ميسيسيبي"
+    },
+    {
+      "QUESTION": "من بنى الأهرامات؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الفراعنة",
+      "RESPONSE2": "البابليون",
+      "RESPONSE3": "القرطاجيون",
+      "RESPONSE4": "المرابطون"
+    },
+    {
+      "QUESTION": "ما هي اصغر قارة في العالم؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "أستراليا",
+      "RESPONSE2": "أستراليا",
+      "RESPONSE3": "اروبا",
+      "RESPONSE4": "اسيا"
+    },
+    {
+      "QUESTION": "ما إسم أول سفينة فضائية مؤهولة؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "ابولو 11",
+      "RESPONSE2": "شينزهو",
+      "RESPONSE3": "ابولو 11",
+      "RESPONSE4": "سبايس إكس"
+    },
+    {
+      "QUESTION": "من هو اول الأنبيء؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "ادم",
+      "RESPONSE2": "موسى",
+      "RESPONSE3": "نوح",
+      "RESPONSE4": "ادم"
+    },
+    {
+      "QUESTION": "ما هي الالة التي تقاس بها درجة الحرارة؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "المحرار",
+      "RESPONSE2": "المكيال",
+      "RESPONSE3": "المحرار",
+      "RESPONSE4": "الميزان"
+    },
+    {
+      "QUESTION": "ما هي درجة تجمد الماء؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "0",
+      "RESPONSE2": "-20",
+      "RESPONSE3": "-10",
+      "RESPONSE4": "30"
+    },
+    {
+      "QUESTION": "ما هي درجة تبخر الماء؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "100",
+      "RESPONSE2": "100",
+      "RESPONSE3": "50",
+      "RESPONSE4": "-40"
+    },
+    {
+      "QUESTION": "ما هي وحدة قياس الوزن؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الكيلو غرام",
+      "RESPONSE2": "المتر",
+      "RESPONSE3": "السيليسيوس",
+      "RESPONSE4": "البار"
+    },
+    {
+      "QUESTION": "ما هي وحدة قياس الحرارة؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "السيليسيوس",
+      "RESPONSE2": "الكيلو غرام",
+      "RESPONSE3": "المتر",
+      "RESPONSE4": "السيليسيوس"
+    },
+    {
+      "QUESTION": "حول إلى المترcm 4000؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "4m",
+      "RESPONSE2": "40m",
+      "RESPONSE3": "0,4m",
+      "RESPONSE4": "0,004m"
+    },
+    {
+      "QUESTION": "من بنى جامع القرويين؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "فاطمة الفهرية",
+      "RESPONSE2": "فاطمة الفهرية",
+      "RESPONSE3": "سعاد حسني",
+      "RESPONSE4": "يوسف بن تاشفين"
+    },
+    {
+      "QUESTION": "من فتح الأندلس؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "طارق بن زياد",
+      "RESPONSE2": "يوسف بن تاشفين",
+      "RESPONSE3": "إبن خلدول",
+      "RESPONSE4": "جبران خليل جبران"
+    },
+    {
+      "QUESTION": "ماذا يسمى قاطع الخشب؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "حطاب",
+      "RESPONSE2": "خضار",
+      "RESPONSE3": "حطاب",
+      "RESPONSE4": "نجار"
+    },
+    {
+      "QUESTION": "ماهي وحدة قياس سرعة السفن؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "العقدة البحرية",
+      "RESPONSE2": "العقدة البحرية",
+      "RESPONSE3": "الكيلومتر في الساعة",
+      "RESPONSE4": "المتر في الساعة"
+    },
+    {
+      "QUESTION": "من هو أقرب كوكب إلى الشمس؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "عطارد",
+      "RESPONSE2": "عطارد",
+      "RESPONSE3": "الأرض",
+      "RESPONSE4": "مريخ"
+    },
+    {
+      "QUESTION": "أين يقع برج بيزا المائل؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "إيطاليا",
+      "RESPONSE2": "إيطاليا",
+      "RESPONSE3": "إسبانيا",
+      "RESPONSE4": "إنجلترا"
+    },
+    {
+      "QUESTION": "ما هي اللغة الرسمية لدولة إيران؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الفارسية",
+      "RESPONSE2": "الأمازيغية",
+      "RESPONSE3": "العربية",
+      "RESPONSE4": "الفارسية"
+    },
+    {
+      "QUESTION": "كم عدد دول المغرب العربي؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "5",
+      "RESPONSE2": "4",
+      "RESPONSE3": "6",
+      "RESPONSE4": "7"
+    },
+    {
+      "QUESTION": "من هو المطرب الملقب بالعندليب؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "عبد الحليم حافظ",
+      "RESPONSE2": "عبد الحليم حافظ",
+      "RESPONSE3": "فريد الأطرش",
+      "RESPONSE4": "ماجد المهندس"
+    },
+    {
+      "QUESTION": "كم عدد أدرع الأخطبوط؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "8",
+      "RESPONSE2": "10",
+      "RESPONSE3": "8",
+      "RESPONSE4": "6"
+    },
+    {
+      "QUESTION": "من هو أسرع حيوان في البر؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الفهد",
+      "RESPONSE2": "الأسد",
+      "RESPONSE3": "النمر",
+      "RESPONSE4": "الغزال"
+    },
+    {
+      "QUESTION": "كم تدوم مدة الحمل عند الإنسان؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "12 شهر",
+      "RESPONSE2": "10 شهر",
+      "RESPONSE3": "9 شهر",
+      "RESPONSE4": "12 شهر"
+    },
+    {
+      "QUESTION": "من من الحيوانات التالية ليس زاحفا؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الضفضعة",
+      "RESPONSE2": "الوزغة",
+      "RESPONSE3": "التمساح",
+      "RESPONSE4": "الأفعى"
+    },
+    {
+      "QUESTION": "من هو الطائر الذي لا يبيض؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الخفاش",
+      "RESPONSE2": "الدجاجة ",
+      "RESPONSE3": "الخفاش",
+      "RESPONSE4": "العقاب"
+    },
+    {
+      "QUESTION": "ما هي ألوان علم الجزائر؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "ابيض احمر اخضر",
+      "RESPONSE2": "ابيض احمر اخضر",
+      "RESPONSE3": "ابيض احمر اسود",
+      "RESPONSE4": "ابيض اصفر اخضر"
+    },
+    {
+      "QUESTION": "ما هي عاصمة مصر؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "القاهرة",
+      "RESPONSE2": "المنامة",
+      "RESPONSE3": "القاهرة",
+      "RESPONSE4": "دمشق"
+    },
+    {
+      "QUESTION": "ما إسم المضيق المتواجد بين إسبانيا و المغرب؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "جبل طارق",
+      "RESPONSE2": "الجبل الأصفر",
+      "RESPONSE3": "جبل طارق",
+      "RESPONSE4": "جبل الكبير"
+    },
+    {
+      "QUESTION": "أين يقع برج خليفة؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الإمارات المتحدة",
+      "RESPONSE2": "الإمارات المتحدة",
+      "RESPONSE3": "الكويت",
+      "RESPONSE4": "العراق"
+    },
+    {
+      "QUESTION": "زوجة فرعون ما اسمها ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "اسيا",
+      "RESPONSE2": "مريم",
+      "RESPONSE3": "كوثر",
+      "RESPONSE4": "بلقيس"
+    },
+    {
+      "QUESTION": "بماذا تسمى مدة 100 عام ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "القرن",
+      "RESPONSE2": "الجيل",
+      "RESPONSE3": "العقد",
+      "RESPONSE4": "االألفية"
+    },
+    {
+      "QUESTION": "اين توجد غابات الاطلس وهى الاكبر من نوعها في العالم العربي ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "المغرب",
+      "RESPONSE2": "ليبيا",
+      "RESPONSE3": "موريطانيا",
+      "RESPONSE4": "المغرب"
+    },
+    {
+      "QUESTION": "ما هو الاسم الذى يطلق على صفار البيض ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "المح",
+      "RESPONSE2": "المح",
+      "RESPONSE3": "الفخ",
+      "RESPONSE4": "البح"
+    },
+    {
+      "QUESTION": "ما هو الكوكب الاحمر ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "المريخ",
+      "RESPONSE2": "المريخ",
+      "RESPONSE3": "زحل",
+      "RESPONSE4": "عطارد"
+    },
+    {
+      "QUESTION": " الحيوان الوحيد الذي يملك أربعة أرجل و لا يقدر على السباحة ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الجمل",
+      "RESPONSE2": "النمر",
+      "RESPONSE3": "الحصان",
+      "RESPONSE4": "الجمل"
+    },
+    {
+      "QUESTION": "من هو مؤسس مدينة فاس؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "ادريس الأول",
+      "RESPONSE2": "يوسف بن تاشفين",
+      "RESPONSE3": "خالد بن الوليد",
+      "RESPONSE4": "المنصور الذهبي"
+    },
+    {
+      "QUESTION": "ما هو صوت الضفدع؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "النقيق",
+      "RESPONSE2": "الخرير",
+      "RESPONSE3": "العويل",
+      "RESPONSE4": "النقيق"
+    },
+    {
+      "QUESTION": "ماذا يسمى صانع الأحذية ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "اسكافي",
+      "RESPONSE2": "نادل",
+      "RESPONSE3": "مناوب",
+      "RESPONSE4": "اسكافي"
+    },
+    {
+      "QUESTION": "أصبع اليد الاصغر ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "خنصر",
+      "RESPONSE2": "خنصر",
+      "RESPONSE3": "السبابة",
+      "RESPONSE4": "البنصر"
+    },
+    {
+      "QUESTION": "من هو رئيس جمعية البحث العلمي والابتكار والتكنولوجيا؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "يوسف اجديدو",
+      "RESPONSE2": "أيمن اجديدو",
+      "RESPONSE3": "أنس اجديدو",
+      "RESPONSE4": "ليليا اجديدو"
+    },
+    {
+      "QUESTION": "ما البحر الذي يفصل أوروبا عن أفريقيا؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "البحر الأبيض المتوسط",
+      "RESPONSE2": "البحر الميت ",
+      "RESPONSE3": "البحر الأبيض المتوسط",
+      "RESPONSE4": "المحيط الهادئ"
+    },
+    {
+      "QUESTION": "ما لون لسان الزرافة؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "أزرق",
+      "RESPONSE2": "أزرق",
+      "RESPONSE3": "أبيض",
+      "RESPONSE4": "برتقالي"
+    },
+    {
+      "QUESTION": "ما اسم أعلى جبل في قارة أفريقيا؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "جبل كليمنجارو",
+      "RESPONSE2": "جبل بوعنان",
+      "RESPONSE3": "جبل توبقال",
+      "RESPONSE4": "جبل كليمنجارو"
+    },
+    {
+      "QUESTION": "ما الكوكب الثامن والأبعد عن النظام الشمسي؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "كوكب نبتون",
+      "RESPONSE2": "كوكب نبتون",
+      "RESPONSE3": "كوكب المشتري",
+      "RESPONSE4": "كوكب الزهرة"
+    },
+    {
+      "QUESTION": "كم عدد الأرجل التي يمتلكها جراد البحر؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "8",
+      "RESPONSE2": "4",
+      "RESPONSE3": "10",
+      "RESPONSE4": "6"
+    },
+    {
+      "QUESTION": "كل كم سنة يُقام الأولمبياد؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "كل 4 سنوات",
+      "RESPONSE2": "كل 4 سنوات",
+      "RESPONSE3": "كل 3 سنوات",
+      "RESPONSE4": "كل 5 سنوات"
+    },
+    {
+      "QUESTION": "كم عدد لاعبي فريق البيسبول؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "9 لاعبين",
+      "RESPONSE2": "8 لاعبين",
+      "RESPONSE3": "9 لاعبين",
+      "RESPONSE4": "10 لاعبين"
+    },
+    {
+      "QUESTION": "ما ناتج قسمة 121 على 11؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "11",
+      "RESPONSE2": "13",
+      "RESPONSE3": "11",
+      "RESPONSE4": "12"
+    },
+    {
+      "QUESTION": "ما ناتج ضرب 8 × 60؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "480",
+      "RESPONSE2": "480",
+      "RESPONSE3": "490",
+      "RESPONSE4": "470"
+    },
+    {
+      "QUESTION": "ما الرقم الأولي التالي بعد 7؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "11",
+      "RESPONSE2": "13",
+      "RESPONSE3": "12",
+      "RESPONSE4": "11"
+    },
+    {
+      "QUESTION": "ما نتيجة حاصل ضرب 131 × 0 × 300 × 4؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "0",
+      "RESPONSE2": "1200",
+      "RESPONSE3": "131",
+      "RESPONSE4": "300"
+    },
+    {
+      "QUESTION": "كم عدد الشهور التي عدد أيامها 30 يومًا؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "4 أشهر",
+      "RESPONSE2": "3 أشهر",
+      "RESPONSE3": "4 أشهر",
+      "RESPONSE4": "5 أشهر"
+    },
+    {
+      "QUESTION": "كم حاصل قسمة صفر على أي عدد؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "صفر",
+      "RESPONSE2": "صفر",
+      "RESPONSE3": "خمسة",
+      "RESPONSE4": "نفس العدد"
+    },
+    {
+      "QUESTION": "أي من العلوم هو الأقدم في تاريخ البشرية؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "علم الفلك",
+      "RESPONSE2": "علم الرياضيات",
+      "RESPONSE3": "علم الأدب",
+      "RESPONSE4": "علم الفلك"
+    },
+    {
+      "QUESTION": "كم عدد ألوان الطيف التي يتكون منها قوس قزح؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "سبعة ألوان",
+      "RESPONSE2": "سبعة ألوان",
+      "RESPONSE3": "ستة ألوان",
+      "RESPONSE4": "خمسة ألوان"
+    },
+    {
+      "QUESTION": "ما هو اسم اكبر بحيرة في كوكب الأرض؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "بُحيرة قزوين",
+      "RESPONSE2": "بُحيرة سوبيريور",
+      "RESPONSE3": "بُحيرة فيكتوريا",
+      "RESPONSE4": "بُحيرة الدب العظيم"
+    },
+    {
+      "QUESTION": "ما هو الطائر الأسرع في العالم؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "النعامة",
+      "RESPONSE2": "الصقر",
+      "RESPONSE3": "النعامة",
+      "RESPONSE4": "النسر"
+    },
+    {
+      "QUESTION": "كم مرة تستطيع إناث القطط أن تنجب سنوياً؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "ثلاث مرات",
+      "RESPONSE2": "مرة واحدة",
+      "RESPONSE3": "مرتان",
+      "RESPONSE4": "ثلاث مرات"
+    },
+    {
+      "QUESTION": "من عدد القلوب التي يمتلكها حيوان الأخطبوط؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "ثلاثة قلوب",
+      "RESPONSE2": "قلب واحد",
+      "RESPONSE3": "ثلاثة قلوب",
+      "RESPONSE4": "أربع قلوب"
+    },
+    {
+      "QUESTION": "ما هي عاصمة إثيوبيا؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "أديس أبابا",
+      "RESPONSE2": "أديس أبابا",
+      "RESPONSE3": "دير داوا",
+      "RESPONSE4": "أداما"
+    },
+    {
+      "QUESTION": "ما هي أكبر هضبة في العالم؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "هضبة التبت",
+      "RESPONSE2": "هضبة التبت",
+      "RESPONSE3": "هضبة نجد",
+      "RESPONSE4": "هضبة بتاجونيا"
+    },
+    {
+      "QUESTION": "ما هي أكبر دولة في العالم من حيث المساحة؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "روسيا",
+      "RESPONSE2": "الولايات المتحدة الأمريكية",
+      "RESPONSE3": "كندا",
+      "RESPONSE4": "روسيا"
+    },
+    {
+      "QUESTION": "ما رمز وكالة المخابرات الأمريكية ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "C . I . A",
+      "RESPONSE2": "C . I . A . F",
+      "RESPONSE3": "C . I . D",
+      "RESPONSE4": "C . I . A"
+    },
+    {
+      "QUESTION": "ما أقرب دولة عربية إلى أوروبا ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "المغرب",
+      "RESPONSE2": "تونس",
+      "RESPONSE3": "المغرب",
+      "RESPONSE4": "الجزائر"
+    },
+    {
+      "QUESTION": "كم لتر دم موجود في الإنسان؟.",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "6 لتر",
+      "RESPONSE2": "4 لتر",
+      "RESPONSE3": "5 لتر",
+      "RESPONSE4": "6 لتر"
+    },
+    {
+      "QUESTION": "من هم السكان الأصليين للولايات المتحدة الأمريكية",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الهنود الحمر",
+      "RESPONSE2": "الهنود البيض",
+      "RESPONSE3": "الهنود الصفر",
+      "RESPONSE4": "الهنود الخضر"
+    },
+    {
+      "QUESTION": "ما المقياس الذي يُستخدم في قياس سرعة السفن ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "العقدة",
+      "RESPONSE2": "الكيلومتر",
+      "RESPONSE3": "الكيلوغرام",
+      "RESPONSE4": "الباوند"
+    },
+    {
+      "QUESTION": "ماهو المكان الذي يعيش فيه النحل ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "خلية",
+      "RESPONSE2": "منزل",
+      "RESPONSE3": "عش ",
+      "RESPONSE4": "إسطبل"
+    },
+    {
+      "QUESTION": "ما هو الحيوان الذي يتنفس بلسانه ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الثعبان",
+      "RESPONSE2": "الحمل",
+      "RESPONSE3": "الفيل",
+      "RESPONSE4": "فرس النهر"
+    },
+    {
+      "QUESTION": "ما هو الغاز الذي يتغذى عليه النباتات والأشجار؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "غاز ثاني أكسيد الكربون",
+      "RESPONSE2": "غاز الميثان",
+      "RESPONSE3": "غاز الأوكسيجين",
+      "RESPONSE4": "غاز البوتان"
+    },
+    {
+      "QUESTION": "ما هى الأشعة التي تخترق مادة الفولاذ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "أشعة الليزر",
+      "RESPONSE2": "أشعة الشمس",
+      "RESPONSE3": "الأشعة تحت الحمراء",
+      "RESPONSE4": "الأشعة السينية"
+    },
+    {
+      "QUESTION": "ما هو المكون الأساسي للزجاج ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الرمل ",
+      "RESPONSE2": "الحجر",
+      "RESPONSE3": "البلاستيك",
+      "RESPONSE4": "الخشب"
+    },
+    {
+      "QUESTION": "ما هو الحيوان الذي يُستخرج منه المسك؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الغزال",
+      "RESPONSE2": "الظبي",
+      "RESPONSE3": "الثعلب",
+      "RESPONSE4": "القرد"
+    },
+    {
+      "QUESTION": "ما عدد الدول العربية الموجودة في قارة أفريقيا؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "9",
+      "RESPONSE2": "8",
+      "RESPONSE3": "7",
+      "RESPONSE4": "10"
+    },
+    {
+      "QUESTION": "أين تقع دولة فلسطين؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "قارة آسيا",
+      "RESPONSE2": "قارة إفريقيا",
+      "RESPONSE3": "قارة أوروبا",
+      "RESPONSE4": "قارة أمريكا اللاتينية"
+    },
+    {
+      "QUESTION": " ماذا يسمى بيت الدجاج؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "قن",
+      "RESPONSE2": "إسطبل",
+      "RESPONSE3": "قفص",
+      "RESPONSE4": "خلية"
+    },
+    {
+      "QUESTION": "اذكر اسم الدول المصدرة للبترول؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "أوبك",
+      "RESPONSE2": "أربك",
+      "RESPONSE3": "أسبك",
+      "RESPONSE4": "أنبك"
+    },
+    {
+      "QUESTION": "اذكر اسم أقوى أنواع الحجارة؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": " الألماس",
+      "RESPONSE2": "الياقوت",
+      "RESPONSE3": "الذهب",
+      "RESPONSE4": "الفضة"
+    },
+    {
+      "QUESTION": "اذكر عدد مجموعة الكواكب الشمسية؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "8",
+      "RESPONSE2": "9",
+      "RESPONSE3": "11",
+      "RESPONSE4": "12"
+    },
+    {
+      "QUESTION": "اذكر اسم صوت الضفدع؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "نقيق",
+      "RESPONSE2": "نهيق",
+      "RESPONSE3": "صهيل",
+      "RESPONSE4": "نباح"
+    },
+    {
+      "QUESTION": "كم تبلغ عدد جيوب الأنفية لدى الإنسان؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "8",
+      "RESPONSE2": "6",
+      "RESPONSE3": "4",
+      "RESPONSE4": "10"
+    },
+    {
+      "QUESTION": "ما هي أكبر دولة عربية من حيث المساحة؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "السودان",
+      "RESPONSE2": "المغرب",
+      "RESPONSE3": "الجزائر",
+      "RESPONSE4": "العراق"
+    },
+    {
+      "QUESTION": "متى أرسلت أمريكا رحلتها الفضائية الأولى؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "1962",
+      "RESPONSE2": "1963",
+      "RESPONSE3": "1964",
+      "RESPONSE4": "1968"
+    },
+    {
+      "QUESTION": "كم عدد الأسنان التي يمتلكها الجمل؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "34",
+      "RESPONSE2": "36",
+      "RESPONSE3": "32",
+      "RESPONSE4": "30"
+    },
+    {
+      "QUESTION": "ما هي وحدة قياس الصوت؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الديسبل",
+      "RESPONSE2": "البار",
+      "RESPONSE3": "المتر",
+      "RESPONSE4": "الميل"
+    },
+    {
+      "QUESTION": "كم يبلغ عدد الأحبال الصوتية لدى الإنسان؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "4",
+      "RESPONSE2": "6",
+      "RESPONSE3": "8",
+      "RESPONSE4": "2"
+    },
+    {
+      "QUESTION": "ما هي الأعضاء التي تستمر في النمو طوال حياة الإنسان؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الأنف والأذن",
+      "RESPONSE2": "الحنجرة واللسان",
+      "RESPONSE3": "العضلات",
+      "RESPONSE4": "الأصابع"
+    },
+    {
+      "QUESTION": "ما هي الدولة العربية التي يمر فيها خط الإستواء؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الصومال",
+      "RESPONSE2": "تونس",
+      "RESPONSE3": "مصر",
+      "RESPONSE4": "قطر"
+    },
+    {
+      "QUESTION": "ما هي أكبر جزيرة في العالم؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "استراليا",
+      "RESPONSE2": "هاواي",
+      "RESPONSE3": "بالي",
+      "RESPONSE4": "فلندا"
+    },
+    {
+      "QUESTION": "ما هو الحيوان الذي يأكل أبنائه إذا جاع؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "النمر",
+      "RESPONSE2": "الأسد",
+      "RESPONSE3": "الثعبان",
+      "RESPONSE4": "الفأر"
+    },
+    {
+      "QUESTION": "ما هي الدولة الخليجية الأولى التي ظهر بها البترول؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "البحرين",
+      "RESPONSE2": "قطر",
+      "RESPONSE3": "الكويت",
+      "RESPONSE4": "السعودية"
+    },
+    {
+      "QUESTION": "ما هي عاصمة الإمارات العربية المتحدة؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": " أبوظبي",
+      "RESPONSE2": "دبي",
+      "RESPONSE3": "الشارقة",
+      "RESPONSE4": "الرياض"
+    },
+    {
+      "QUESTION": "ما هي الدولة التي ينبع منها نهر النيل؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "أوغندا",
+      "RESPONSE2": "مصر",
+      "RESPONSE3": "إثيوبيا",
+      "RESPONSE4": "غانا"
+    },
+    {
+      "QUESTION": "ماهو الشئ الذي يكتب ولا يقرأ؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "القلم",
+      "RESPONSE2": "الكتاب",
+      "RESPONSE3": "الفم",
+      "RESPONSE4": "العينين"
+    },
+    {
+      "QUESTION": "ما هي اصغر دولة في العالم ؟ ",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "الفاتيكان",
+      "RESPONSE2": "تونس",
+      "RESPONSE3": "ناميبيا",
+      "RESPONSE4": "إيطاليا"
+    },
+    {
+      "QUESTION": "كم عدد الشهور التي عدد أيامها 30 يومًا؟",
+      "LEVEL": "xyws35k9n5q2cmw",
+      "CORRECTRESPONSE": "4",
+      "RESPONSE2": "6",
+      "RESPONSE3": "5",
+      "RESPONSE4": "7"
+    }
+  ]
+}
