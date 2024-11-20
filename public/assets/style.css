@@ -1,28 +1,31 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f7fa;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    box-sizing: border-box;
 }
 
 .container {
-    background-color: #fff;
-    padding: 20px;
+    background-color: #ffffff;
+    padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 350px;
+    width: 100%;
+    max-width: 400px;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 20px;
     color: #333;
+    font-weight: 600;
 }
 
 #userMessage {
@@ -33,9 +36,11 @@ h1 {
 
 /* Question Section */
 .question-section p {
-    font-size: 20px;
+    font-size: 22px;
     color: #333;
     margin-top: 20px;
+    font-weight: 500;
+    line-height: 1.4;
 }
 
 /* Response Section */
@@ -43,35 +48,62 @@ h1 {
     margin-top: 20px;
 }
 
-.response-buttons {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.response-radio-buttons {
+    display: flex;
+    flex-direction: column;
     gap: 15px;
     margin-top: 20px;
+    align-items: flex-start;
 }
 
-.response-buttons button {
-    background-color: #007bff;
-    color: white;
-    padding: 15px;
+.response-radio-buttons label {
     font-size: 16px;
-    border: none;
-    border-radius: 5px;
+    color: #333;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-sizing: border-box;
+    transition: all 0.3s ease;
 }
 
-.response-buttons button:hover {
-    background-color: #0056b3;
+.response-radio-buttons input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #007bff; /* New color for radio buttons */
 }
 
-.response-buttons button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-}
-
-.response-buttons button:focus {
+.response-radio-buttons input[type="radio"]:focus {
     outline: none;
-    border: 2px solid #0056b3;
+    border: 2px solid #007bff;
+}
+
+/* Hover and Active States */
+.response-radio-buttons label:hover {
+    color: #007bff;
+    transform: scale(1.05);
+}
+
+.response-radio-buttons input[type="radio"]:checked + label {
+    font-weight: 600;
+    color: #0056b3;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #userMessage {
+        font-size: 16px;
+    }
+
+    .question-section p {
+        font-size: 18px;
+    }
+
+    .response-radio-buttons label {
+        font-size: 14px;
+    }
 }

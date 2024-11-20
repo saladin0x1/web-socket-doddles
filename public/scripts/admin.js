@@ -6,7 +6,7 @@ class AdminHandler {
         this.ws.onclose = this.onClose.bind(this);
         this.ws.onerror = this.onError.bind(this);
 
-        // Bind event listeners
+        // Bind event listeners for start session and dispatch questions buttons
         document.getElementById('startSessionButton').addEventListener('click', this.startSession.bind(this));
         document.getElementById('dispatchQuestionsButton').addEventListener('click', this.dispatchQuestions.bind(this));
     }
@@ -29,7 +29,7 @@ class AdminHandler {
     // Handle incoming messages from WebSocket
     onMessage(event) {
         const data = JSON.parse(event.data);
-        console.log('Received data:', data);
+        console.log('Received data from server:', data);  // Log the incoming data from WebSocket
 
         switch (data.type) {
             case 'user-id':
@@ -44,6 +44,15 @@ class AdminHandler {
             case 'user-response':
                 this.handleUserResponse(data);
                 break;
+            case 'question':
+                this.handleQuestion(data);
+                break;
+            case 'user-responses':
+                this.handleUserResponses(data);
+                break;
+            case 'error':
+                this.handleError(data);
+                break;
             default:
                 console.log('Unknown message type:', data.type);
         }
@@ -56,6 +65,7 @@ class AdminHandler {
 
     // Handle session creation response
     handleSessionCreated(data) {
+        console.log('Session created:', data);
         document.getElementById('sessionMessage').innerText = data.message;
         document.getElementById('dispatchQuestionsButton').disabled = false; // Enable the dispatch button
     }
@@ -75,10 +85,32 @@ class AdminHandler {
     // Handle user responses
     handleUserResponse(data) {
         const tableBody = document.getElementById('responsesTable').getElementsByTagName('tbody')[0];
+        
+        // Create a new row for the response
         const row = tableBody.insertRow();
-        row.insertCell(0).innerText = data.userId;
-        row.insertCell(1).innerText = data.answer;
-        row.insertCell(2).innerText = data.timestamp;
+        
+        // Insert cells for each piece of data
+        row.insertCell(0).innerText = data.userId;       // User ID
+        row.insertCell(1).innerText = data.answer;        // User's answer
+        row.insertCell(2).innerText = data.timestamp;     // Timestamp of the response
+    }
+
+    // Handle incoming question data
+    handleQuestion(data) {
+        console.log('New question received:', data);
+        // Here you can update the UI to show the question and available responses
+    }
+
+    // Handle incoming user responses data
+    handleUserResponses(data) {
+        console.log('User responses received:', data.responses);
+        // Here you can update the UI to show all user responses for this session
+    }
+
+    // Handle errors
+    handleError(data) {
+        console.error('Error from server:', data.message);
+        // You can display error messages in the UI if needed
     }
 
     // Handle start session click event

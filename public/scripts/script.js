@@ -1,100 +1,121 @@
 class UserHandler {
     constructor(serverUrl) {
-        this.ws = new WebSocket(serverUrl); // Connect to the WebSocket server
+        console.log("Initializing UserHandler");
+        this.ws = new WebSocket(serverUrl); // Create a WebSocket connection
         this.userId = null;
         this.sessionId = null;
+        this.questionNum = 0; // Keep track of the current question number
 
-        // Bind event listeners
+        // Bind WebSocket event listeners
         this.ws.onopen = this.onOpen.bind(this);
         this.ws.onmessage = this.onMessage.bind(this);
         this.ws.onclose = this.onClose.bind(this);
-
-        // Bind button click listener dynamically
-        this.submitResponse = this.submitResponse.bind(this);
     }
 
-    // Handle WebSocket connection opening
+    // WebSocket connection established
     onOpen() {
         console.log('Connected to WebSocket server');
     }
 
-    // Handle incoming messages from WebSocket
+    // Handle incoming messages from the server
     onMessage(event) {
         const data = JSON.parse(event.data);
-        console.log('Received data:', data);
-
-        if (data.type === 'user-id') {
-            this.handleUserId(data);
-        }
-
-        if (data.type === 'error') {
-            this.handleError(data);
-        }
-
-        if (data.type === 'question') {
-            this.handleQuestion(data);
+        console.log('Message received from WebSocket:', data);
+        
+        switch (data.type) {
+            case 'user-id':
+                this.handleUserId(data);
+                break;
+            case 'error':
+                this.handleError(data);
+                break;
+            case 'question':
+                this.handleQuestion(data);
+                break;
+            default:
+                console.log('Unknown message type:', data.type);
         }
     }
 
-    // Handle user ID response
+    // Handle user ID assignment
     handleUserId(data) {
         this.userId = data.userId;
         this.sessionId = data.sessionId;
-
-        // Display user ID
+        
         document.getElementById('userMessage').innerText = `You are user: ${this.userId}`;
+        console.log(`Assigned User ID: ${this.userId}, Session ID: ${this.sessionId}`);
+        
+        document.title = `User ${this.userId} | Waiting for Question`;
     }
 
-    // Handle error message
+    // Handle error messages from the server
     handleError(data) {
         if (data.message === 'Session Full') {
             document.getElementById('userMessage').innerText = 'Sorry, the session is full. Please try again later.';
+            console.log('Error: Session is full');
             setTimeout(() => {
-                window.location.reload();  // Reload to try again
+                window.location.reload(); // Reload after delay
             }, 3000);
+        } else {
+            console.log('Error:', data.message);
         }
     }
 
-    // Handle incoming question and display response buttons
+    // Handle incoming question
     handleQuestion(data) {
-        document.getElementById('question').innerText = data.question;
+        this.questionNum += 1; // Increment question number
+        
+        console.log('Handling new question:', data);
+
+        // Update the question text on the page
+        document.getElementById('question').innerText = data.question || "No question provided";
         document.getElementById('responseSection').style.display = 'block';
 
-        // Display response buttons instead of text area
-        const responseButtons = document.getElementById('responseButtons');
-        responseButtons.innerHTML = ''; // Clear existing buttons
+        // Update the page title
+        document.title = `User ${this.userId} | Question ${this.questionNum}`;
+        console.log(`Displaying Question ${this.questionNum} for User ${this.userId}`);
 
-        const responses = [data.CORRECTRESPONSE, data.RESPONSE2, data.RESPONSE3, data.RESPONSE4];
-        
-        responses.forEach((response, index) => {
-            const button = document.createElement('button');
-            button.innerText = response;
-            button.classList.add('response-button');
-            button.onclick = () => this.submitResponse(response);
-            responseButtons.appendChild(button);
-        });
-    }
+        const responseRadioButtons = document.getElementById('responseRadioButtons');
+        if (!responseRadioButtons) {
+            console.error('responseRadioButtons element not found');
+            return;
+        }
 
-    // Submit user response
-    submitResponse(response) {
-        if (this.userId && this.sessionId) {
-            // Send user response
-            this.ws.send(JSON.stringify({
-                type: 'user-response',
-                userId: this.userId,
-                sessionId: this.sessionId,
-                answer: response,
-            }));
+        responseRadioButtons.innerHTML = ''; // Clear previous radio buttons if any
 
-            // Disable response buttons after submission
-            document.getElementById('responseSection').style.display = 'none';
-            console.log('Answer submitted:', response);
+        // Ensure responses are received properly
+        const responses = data.responses || [];
+        console.log('Responses:', responses);
+
+        if (responses.length > 0) {
+            // Render radio buttons for each response
+            responses.forEach((response, index) => {
+                const radioContainer = document.createElement('div');
+                const radioButton = document.createElement('input');
+                radioButton.type = 'radio';
+                radioButton.id = `response_${index}`;
+                radioButton.name = 'responses'; // Group radio buttons together
+                radioButton.value = response;
+
+                const label = document.createElement('label');
+                label.setAttribute('for', `response_${index}`);
+                label.innerText = response;
+
+                radioContainer.appendChild(radioButton);
+                radioContainer.appendChild(label);
+
+                // Append to the responseRadioButtons container
+                responseRadioButtons.appendChild(radioContainer);
+            });
         } else {
-            console.log('Response or user/session info missing');
+            console.log('No responses available');
+            const noResponsesMessage = document.createElement('p');
+            noResponsesMessage.innerText = 'No responses available.';
+            responseRadioButtons.appendChild(noResponsesMessage);
         }
     }
 
-    // Handle WebSocket close event (if needed)
+    // Handle WebSocket connection closure
     onClose() {
         console.log('WebSocket connection closed');
     }
