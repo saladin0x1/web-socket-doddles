@@ -1,15 +1,13 @@
 {
   "name": "web-socket-doddles",
   "version": "1.0.0",
-  "main": "client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js", 
-
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Salah-Eddine El Ouali aka saladin0x1 <saladin0x1@saladinx0x1.ru>",
   "license": "ISC",
   "description": "",
   "dependencies": {
