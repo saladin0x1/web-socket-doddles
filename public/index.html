@@ -10,13 +10,19 @@
     <div class="container">
         <h1>Buzzer Quiz</h1>
         <p id="userMessage">Loading...</p>
+
+        <!-- Question Section -->
         <div id="questionSection" class="question-section">
             <p id="question">Waiting for the game to start...</p>
         </div>
+
+        <!-- Response Buttons -->
         <div id="responseSection" class="response-section" style="display: none;">
-            <textarea id="userResponse" placeholder="Your answer"></textarea>
-            <button id="submitResponse">Submit Answer</button>
+            <div id="responseButtons" class="response-buttons">
+                <!-- Buttons will be dynamically added here -->
+            </div>
         </div>
+
     </div>
 
     <script src="./scripts/script.js"></script>

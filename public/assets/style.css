@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -15,54 +16,62 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 300px;
+    width: 350px;
 }
 
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #333;
 }
 
-.user-id {
-    font-size: 16px;
+#userMessage {
+    font-size: 18px;
     color: #555;
-    margin-bottom: 10px;
-}
-
-.buzz-button {
-    background-color: #ff5252;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
     margin-bottom: 20px;
-    width: 100%;
-    display: block;
 }
 
-.buzz-button:disabled {
-    background-color: #ddd;
-    cursor: not-allowed;
-}
-
-.buzz-button:hover:not(:disabled) {
-    background-color: #ff4040;
-}
-
-.question {
-    font-size: 18px;
+/* Question Section */
+.question-section p {
+    font-size: 20px;
     color: #333;
     margin-top: 20px;
 }
 
-.response {
+/* Response Section */
+.response-section {
     margin-top: 20px;
-    font-size: 16px;
-    color: #666;
 }
 
-.error {
-    color: red;
+.response-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.response-buttons button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.response-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.response-buttons button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.response-buttons button:focus {
+    outline: none;
+    border: 2px solid #0056b3;
 }
