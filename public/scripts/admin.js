@@ -9,6 +9,8 @@ class AdminHandler {
         // Bind event listeners for start session and dispatch questions buttons
         document.getElementById('startSessionButton').addEventListener('click', this.startSession.bind(this));
         document.getElementById('dispatchQuestionsButton').addEventListener('click', this.dispatchQuestions.bind(this));
+
+        this.dispatchButton = document.getElementById('dispatchQuestionsButton'); // Store dispatch button
     }
 
     // Handle WebSocket connection opening
@@ -19,11 +21,13 @@ class AdminHandler {
     // Handle WebSocket connection closing
     onClose() {
         console.log('WebSocket connection closed');
+        this.dispatchButton.disabled = true; // Disable dispatch button on disconnect
     }
 
     // Handle WebSocket errors
     onError(error) {
         console.error('WebSocket error:', error);
+        this.dispatchButton.disabled = true; // Disable dispatch button on error
     }
 
     // Handle incoming messages from WebSocket
@@ -41,7 +45,7 @@ class AdminHandler {
             case 'connected-users':
                 this.handleConnectedUsers(data);
                 break;
-            case 'user-response':
+            case 'user-response': // No longer directly used in admin, responses are batched now
                 this.handleUserResponse(data);
                 break;
             case 'question':
@@ -67,7 +71,7 @@ class AdminHandler {
     handleSessionCreated(data) {
         console.log('Session created:', data);
         document.getElementById('sessionMessage').innerText = data.message;
-        document.getElementById('dispatchQuestionsButton').disabled = false; // Enable the dispatch button
+        this.dispatchButton.disabled = false; // Enable the dispatch button
     }
 
     // Handle the list of connected users
@@ -82,13 +86,13 @@ class AdminHandler {
         });
     }
 
-    // Handle user responses
+    // Handle user responses (legacy - individual responses, not used as batch is preferred now)
     handleUserResponse(data) {
         const tableBody = document.getElementById('responsesTable').getElementsByTagName('tbody')[0];
-        
+
         // Create a new row for the response
         const row = tableBody.insertRow();
-        
+
         // Insert cells for each piece of data
         row.insertCell(0).innerText = data.userId;       // User ID
         row.insertCell(1).innerText = data.answer;        // User's answer
@@ -98,32 +102,47 @@ class AdminHandler {
     // Handle incoming question data
     handleQuestion(data) {
         console.log('New question received:', data);
-        // Here you can update the UI to show the question and available responses
+        // Here you can update the UI to show the question and available responses (Admin UI doesn't need to show questions)
     }
 
-    // Handle incoming user responses data
+    // Handle incoming user responses data (BATCH of responses for a question)
     handleUserResponses(data) {
-        console.log('User responses received:', data.responses);
-        // Here you can update the UI to show all user responses for this session
+        console.log('User responses received for question:', data.questionIndex + 1, data.responses);
+        const tableBody = document.getElementById('responsesTable').getElementsByTagName('tbody')[0];
+        // Clear only if you want to refresh table for each question, otherwise append
+        // tableBody.innerHTML = ''; // Clear previous responses - Let's keep appending for session history
+
+        data.responses.forEach(response => {
+            const row = tableBody.insertRow();
+            row.insertCell(0).innerText = response.userId;
+            row.insertCell(1).innerText = response.response;
+            row.insertCell(2).innerText = response.timestamp;
+            row.insertCell(3).innerText = data.questionIndex + 1; // Display question number
+        });
     }
 
     // Handle errors
     handleError(data) {
         console.error('Error from server:', data.message);
-        // You can display error messages in the UI if needed
+        document.getElementById('sessionMessage').innerText = `Error: ${data.message}`; // Display error message
+        this.dispatchButton.disabled = true; // Disable dispatch button on error
     }
 
     // Handle start session click event
     startSession() {
         const numUsers = document.getElementById('numUsers').value;
+        const numQuestions = document.getElementById('numQuestions').value; // Get number of questions
 
-        if (numUsers && !isNaN(numUsers)) {
+        if (numUsers && !isNaN(numUsers) && numQuestions && !isNaN(numQuestions)) {
             this.ws.send(JSON.stringify({
                 type: 'admin-start',
-                numUsers: parseInt(numUsers), // Send the number of users to WebSocket server
+                numUsers: parseInt(numUsers),
+                numQuestions: parseInt(numQuestions) // Send number of questions to server
             }));
+            document.getElementById('sessionMessage').innerText = 'Starting session...'; // Feedback message
+            this.dispatchButton.disabled = true; // Disable until session is created
         } else {
-            alert('Please enter a valid number of users.');
+            alert('Please enter valid numbers for users and questions.');
         }
     }
 
@@ -134,6 +153,12 @@ class AdminHandler {
             type: 'start-questions',
             sessionId: sessionId,
         }));
+        this.dispatchButton.disabled = true; // Disable after dispatch to prevent re-dispatch
+        this.dispatchButton.innerText = 'Questions Dispatched'; // Update button text
+        setTimeout(() => { // Re-enable and reset text after some time (e.g., after questions are likely answered)
+            this.dispatchButton.disabled = false;
+            this.dispatchButton.innerText = 'Dispatch Questions';
+        }, 15000); // 15 seconds - adjust as needed
     }
 }
 

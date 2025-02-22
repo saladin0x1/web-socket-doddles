@@ -144,7 +144,7 @@ class WebSocketServer {
         }
         userResponses[sessionId][userId] = { answer, timestamp: new Date().toISOString() };
         console.log(chalk.green(`User ${userId} responded to session ${sessionId}: ${answer}`));
-        
+
         // Check if all users have responded
         this.checkAllResponses(sessionId);
       }

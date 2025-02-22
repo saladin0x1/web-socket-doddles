@@ -1,60 +1,179 @@
+/* Kahoot-like Admin Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Light grey background */
+  margin: 0;
+  padding: 20px; /* Add padding around body */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the start to avoid content overflow */
+  min-height: 100vh; /* Ensure full viewport height */
+  box-sizing: border-box;
 }
 
 .container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 400px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 800px; /* Wider admin panel */
+  margin-top: 20px; /* Add some top margin */
+  animation: fadeIn 1s ease-out;
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
 h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+label {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #555;
+}
+
+input[type="number"] {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  margin-right: 15px;
+  width: 80px;
 }
 
 .start-button, .dispatch-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    width: 100%;
-    margin-top: 10px;
+  background-color: #2979FF; /* Kahoot Blue */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .start-button:hover, .dispatch-button:hover {
-    background-color: #45a049;
+  background-color: #1E56B3; /* Darker blue on hover */
 }
 
-.session-info, .question-section, .responses-section {
-    margin-top: 20px;
+.start-button:disabled, .dispatch-button:disabled {
+  background-color: #90CAF9; /* Lighter blue when disabled */
+  cursor: default;
+}
+
+.session-info, .question-section, .connected-users-section, .responses-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.session-info p, .question-section p {
+  font-size: 18px;
+  color: #555;
+}
+
+.connected-users-section h2, .responses-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#connectedUsersList {
+  list-style: none;
+  padding: 0;
+}
+
+#connectedUsersList li {
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  font-size: 16px;
+  color: #333;
 }
 
 #responsesTable {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  border-radius: 10px;
+  overflow: hidden; /* For rounded corners on table */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+#responsesTable thead tr {
+  background-color: #2979FF; /* Kahoot Blue for header */
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 #responsesTable th, #responsesTable td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+  border: none; /* Remove internal borders */
+  padding: 12px 15px;
+  text-align: left;
 }
 
 #responsesTable th {
-    background-color: #f2f2f2;
+  text-align: center; /* Center align header text */
+}
+
+#responsesTable tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey for even rows */
+}
+
+/* Responsive Admin Panel */
+@media screen and (max-width: 768px) {
+  .container {
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+  h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+  }
+
+  label, input[type="number"], .start-button, .dispatch-button, .session-info p, .question-section p, .connected-users-section h2, .responses-section h2, #connectedUsersList li, #responsesTable th, #responsesTable td {
+      font-size: 16px;
+  }
+
+  input[type="number"] {
+      padding: 8px;
+      border-radius: 6px;
+      margin-right: 10px;
+      width: 60px;
+  }
+
+  .start-button, .dispatch-button {
+      padding: 10px 20px;
+      border-radius: 8px;
+  }
+
+  .session-info, .question-section, .connected-users-section, .responses-section {
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+  }
 }
