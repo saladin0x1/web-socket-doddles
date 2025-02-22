@@ -7,7 +7,7 @@ const path = require('path');
 
 // Define the WebSocket Server and Express Server URLs
 const WEBSOCKET_PORT = 8080;
-const EXPRESS_PORT = 3000;
+const EXPRESS_PORT = 80;
 
 // Question data storage
 let questions = [];
